@@ -1,0 +1,1862 @@
+
+╭─── Claude Code v2.1.29 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│               Welcome back Victoria!               │ started                 │
+│                                                    │ Run /init to create a … │
+│                      ▗ ▗   ▖ ▖                     │ ─────────────────────── │
+│                                                    │ Recent activity         │
+│                        ▘▘ ▝▝                       │ No recent activity      │
+│                                                    │                         │
+│     Opus 4.5 · Claude Pro · vi531472@ucf.edu's     │                         │
+│     Organization                                   │                         │
+│             ~/Desktop/matcha-boba-house            │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ Create a multi-page static website for Matcha Boba House, a matcha and    
+  boba tea café in Ventura, California right near the beach.                
+                                                                            
+  I need these pages:                                                       
+                                                                            
+  - index.html (home page with hero section)                                
+                                                                            
+  - menu.html                                                               
+                                                                            
+  - about.html                                                              
+                                                                            
+  - gallery.html                                                            
+                                                                            
+  - contact.html                                                            
+                                                                            
+  Include a navigation bar on all pages that links them together. Use a     
+  clean, modern aesthetic with a color scheme that works for a matcha café  
+  (soft greens, creams, natural tones and add some pink in it). Make it     
+  fully responsive.                                                         
+
+⏺ I'll create a complete multi-page website for Matcha Boba House. Let me build
+  all the files with a cohesive design.
+
+⏺ Write(styles.css)
+  ⎿  Wrote 917 lines to styles.css
+     /* ===== CSS Variables ===== */
+     :root {
+       --matcha-dark: #5A7247;
+       --matcha: #7B9E6C;
+       --matcha-light: #A8C99B;
+       --sage: #D4E7C5;
+       --cream: #F5F1E8;
+       --pink: #E8B4B8;
+       --pink-light: #F5D6D8;
+       --brown: #8B7355;
+     … +907 lines (ctrl+o to expand)
+
+⏺ Write(index.html)
+  ⎿  Wrote 155 lines to index.html
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, 
+     initial-scale=1.0">
+       <title>Matcha Boba House | Ventura's Beachside Matcha Cafe</title>
+       <meta name="description" content="Matcha Boba House - Your cozy 
+     beachside matcha and boba tea cafe in Ventura, California. Fresh 
+     matcha, handcrafted boba, and ocean vibes.">
+       <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+     … +145 lines (ctrl+o to expand)
+
+⏺ Write(menu.html)
+  ⎿  Wrote 267 lines to menu.html
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, 
+     initial-scale=1.0">
+       <title>Menu | Matcha Boba House</title>
+       <meta name="description" content="Explore our menu of premium matcha 
+     drinks, handcrafted boba teas, and delicious treats at Matcha Boba 
+     House in Ventura.">
+       <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+
+     … +257 lines (ctrl+o to expand)
+
+⏺ Write(about.html)
+  ⎿  Wrote 154 lines to about.html
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, 
+     initial-scale=1.0">
+       <title>About Us | Matcha Boba House</title>
+       <meta name="description" content="Learn about Matcha Boba House, our 
+     story, values, and the team behind Ventura's favorite beachside matcha 
+     cafe.">
+       <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+
+
+     … +144 lines (ctrl+o to expand)
+
+⏺ Write(gallery.html)
+  ⎿  Wrote 178 lines to gallery.html
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, 
+     initial-scale=1.0">
+       <title>Gallery | Matcha Boba House</title>
+       <meta name="description" content="Browse photos of our delicious 
+     matcha drinks, cozy cafe space, and beachside vibes at Matcha Boba 
+     House in Ventura.">
+       <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+     … +168 lines (ctrl+o to expand)
+
+⏺ Write(contact.html)
+  ⎿  Wrote 204 lines to contact.html
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, 
+     initial-scale=1.0">
+       <title>Contact | Matcha Boba House</title>
+       <meta name="description" content="Visit Matcha Boba House near the 
+     Ventura Pier. Find our hours, location, and contact information. We'd 
+     love to hear from you!">
+       <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+     … +194 lines (ctrl+o to expand)
+
+⏺ I've created a complete multi-page static website for Matcha Boba House.
+  Here's what's included:
+
+  Files Created:
+  - styles.css - Shared stylesheet with responsive design
+  - index.html - Home page with hero, features, and popular items
+  - menu.html - Full menu with matcha drinks, boba teas, fruit teas, and treats
+  - about.html - Story, values, and team section
+  - gallery.html - Photo gallery with hover overlays
+  - contact.html - Contact form, location info, hours, and FAQ
+
+  Features:
+  - Responsive navigation with mobile hamburger menu
+  - Color scheme: Soft matcha greens (#7B9E6C, #A8C99B), cream (#F5F1E8), and
+  pink accents (#E8B4B8)
+  - Modern design with rounded corners, subtle shadows, and gradient backgrounds
+  - Consistent footer with hours, location, and social links
+  - Interactive elements: Hover effects, animated cards, form validation
+  - Mobile-friendly: Fully responsive layout that adapts to all screen sizes
+
+  To view the website, open index.html in your browser:
+  open /Users/victoriaflores/Desktop/matcha-boba-house/index.html
+
+✻ Sautéed for 3m 14s
+
+❯ make the color scheme darker green. make the content cards flip 
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ I'll update the CSS with darker greens and add flip card animations, then
+  update the HTML files with the flip card structure.
+
+⏺ Write(styles.css)
+  ⎿  Added 448 lines, removed 49 lines
+       1  /* ===== CSS Variables ===== */                                
+       2  :root {                                                        
+       3 -  --matcha-dark: #5A7247;                                      
+       4 -  --matcha: #7B9E6C;                                           
+       5 -  --matcha-light: #A8C99B;                                     
+       6 -  --sage: #D4E7C5;                                             
+       3 +  --matcha-dark: #2D4A22;                                      
+       4 +  --matcha: #3D5A32;                                           
+       5 +  --matcha-light: #4A6B3F;                                     
+       6 +  --sage: #6B8F5A;                                             
+       7 +  --sage-light: #8BAF7A;                                       
+       8    --cream: #F5F1E8;                                            
+       9 -  --pink: #E8B4B8;                                             
+      10 -  --pink-light: #F5D6D8;                                       
+      11 -  --brown: #8B7355;                                            
+      12 -  --text-dark: #2D3B2D;                                        
+      13 -  --text-light: #5A6B5A;                                       
+       9 +  --pink: #D4949A;                                             
+      10 +  --pink-light: #E8C4C8;                                       
+      11 +  --brown: #6B5344;                                            
+      12 +  --text-dark: #1A2A1A;                                        
+      13 +  --text-light: #4A5A4A;                                       
+      14    --white: #FFFFFF;                                            
+      15 -  --shadow: 0 4px 20px rgba(45, 59, 45, 0.1);                  
+      16 -  --shadow-hover: 0 8px 30px rgba(45, 59, 45, 0.15);           
+      15 +  --shadow: 0 4px 20px rgba(26, 42, 26, 0.15);                 
+      16 +  --shadow-hover: 0 8px 30px rgba(26, 42, 26, 0.25);           
+      17    --transition: all 0.3s ease;                                 
+      18  }                                                              
+      19                                                                 
+     ...
+      114                                                                
+      115  .nav-links a:hover,                                           
+      116  .nav-links a.active {                                         
+      117 -  background: var(--sage);                                    
+      118 -  color: var(--matcha-dark);                                  
+      117 +  background: var(--matcha);                                  
+      118 +  color: var(--white);                                        
+      119  }                                                             
+      120                                                                
+      121  .menu-toggle {                                                
+     ...
+      142    justify-content: center;                                    
+      143    text-align: center;                                         
+      144    padding: 8rem 5% 4rem;                                      
+      145 -  background: linear-gradient(135deg, var(--sage              
+          -) 0%, var(--cream) 50%, var(--pink-light) 100%);              
+      145 +  background: linear-gradient(135deg, var(--sage-light        
+          +) 0%, var(--cream) 50%, var(--pink-light) 100%);              
+      146    position: relative;                                         
+      147    overflow: hidden;                                           
+      148  }                                                             
+     ...
+      154    right: -20%;                                                
+      155    width: 70%;                                                 
+      156    height: 150%;                                               
+      157 -  background: radial-gradient(ellipse, var(--matcha-light     
+          -) 0%, transparent 70%);                                       
+      157 +  background: radial-gradient(ellipse, var(--sage             
+          +) 0%, transparent 70%);                                       
+      158    opacity: 0.3;                                               
+      159  }                                                             
+      160                                                                
+     ...
+      227  }                                                             
+      228                                                                
+      229  .btn-pink:hover {                                             
+      230 -  background: #D9A3A7;                                        
+      230 +  background: #C4848A;                                        
+      231    transform: translateY(-2px);                                
+      232    box-shadow: var(--shadow-hover);                            
+      233  }                                                             
+     ...
+      260    margin: 0 auto;                                             
+      261  }                                                             
+      262                                                                
+      263 +/* ===== Flip Card Styles ===== */                            
+      264 +.flip-card {                                                  
+      265 +  perspective: 1000px;                                        
+      266 +  height: 280px;                                              
+      267 +}                                                             
+      268 +                                                              
+      269 +.flip-card-inner {                                            
+      270 +  position: relative;                                         
+      271 +  width: 100%;                                                
+      272 +  height: 100%;                                               
+      273 +  transition: transform 0.6s ease;                            
+      274 +  transform-style: preserve-3d;                               
+      275 +}                                                             
+      276 +                                                              
+      277 +.flip-card:hover .flip-card-inner {                           
+      278 +  transform: rotateY(180deg);                                 
+      279 +}                                                             
+      280 +                                                              
+      281 +.flip-card-front,                                             
+      282 +.flip-card-back {                                             
+      283 +  position: absolute;                                         
+      284 +  width: 100%;                                                
+      285 +  height: 100%;                                               
+      286 +  backface-visibility: hidden;                                
+      287 +  border-radius: 20px;                                        
+      288 +  display: flex;                                              
+      289 +  flex-direction: column;                                     
+      290 +  align-items: center;                                        
+      291 +  justify-content: center;                                    
+      292 +  padding: 2rem;                                              
+      293 +  text-align: center;                                         
+      294 +}                                                             
+      295 +                                                              
+      296 +.flip-card-front {                                            
+      297 +  background: linear-gradient(145deg, var(--sage-light),      
+          +var(--sage));                                                 
+      298 +  color: var(--white);                                        
+      299 +}                                                             
+      300 +                                                              
+      301 +.flip-card-back {                                             
+      302 +  background: var(--matcha-dark);                             
+      303 +  color: var(--white);                                        
+      304 +  transform: rotateY(180deg);                                 
+      305 +}                                                             
+      306 +                                                              
+      307 +.flip-card-front .flip-icon {                                 
+      308 +  font-size: 3rem;                                            
+      309 +  margin-bottom: 1rem;                                        
+      310 +}                                                             
+      311 +                                                              
+      312 +.flip-card-front h3 {                                         
+      313 +  color: var(--white);                                        
+      314 +  margin-bottom: 0.5rem;                                      
+      315 +}                                                             
+      316 +                                                              
+      317 +.flip-card-front p {                                          
+      318 +  color: rgba(255, 255, 255, 0.9);                            
+      319 +  font-size: 0.95rem;                                         
+      320 +}                                                             
+      321 +                                                              
+      322 +.flip-card-back p {                                           
+      323 +  color: rgba(255, 255, 255, 0.95);                           
+      324 +  font-size: 1rem;                                            
+      325 +  line-height: 1.6;                                           
+      326 +}                                                             
+      327 +                                                              
+      328 +.flip-card-back .back-icon {                                  
+      329 +  font-size: 2rem;                                            
+      330 +  margin-bottom: 1rem;                                        
+      331 +}                                                             
+      332 +                                                              
+      333 +/* Feature card variations */                                 
+      334 +.flip-card:nth-child(2) .flip-card-front {                    
+      335 +  background: linear-gradient(145deg, var(--pink-light),      
+          +var(--pink));                                                 
+      336 +}                                                             
+      337 +                                                              
+      338 +.flip-card:nth-child(2) .flip-card-back {                     
+      339 +  background: linear-gradient(145deg, #B47A80, var(--pink));  
+      340 +}                                                             
+      341 +                                                              
+      342 +.flip-card:nth-child(3) .flip-card-front {                    
+      343 +  background: linear-gradient(145deg, var(--matcha-light),    
+          +var(--matcha));                                               
+      344 +}                                                             
+      345 +                                                              
+      346 +.flip-card:nth-child(3) .flip-card-back {                     
+      347 +  background: var(--matcha);                                  
+      348 +}                                                             
+      349 +                                                              
+      350 +/* Legacy feature card support */                             
+      351  .feature-card {                                               
+      352    background: var(--cream);                                   
+      353    padding: 2.5rem;                                            
+     ...
+      285                                                                
+      286  /* ===== Popular Items Section ===== */                       
+      287  .popular {                                                    
+      288 -  background: linear-gradient(180deg, var(--cream) 0%,        
+          -var(--sage) 100%);                                            
+      288 +  background: linear-gradient(180deg, var(--cream) 0%,        
+          +var(--sage-light) 100%);                                      
+      289  }                                                             
+      290                                                                
+      291  .popular-grid {                                               
+      292    display: grid;                                              
+      293 -  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      293 +  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      294    gap: 2rem;                                                  
+      295    max-width: 1200px;                                          
+      296    margin: 0 auto;                                             
+      297  }                                                             
+      298                                                                
+      299 -.popular-card {                                               
+      300 -  background: var(--white);                                   
+      299 +/* Popular Flip Cards */                                      
+      300 +.popular-flip-card {                                          
+      301 +  perspective: 1000px;                                        
+      302 +  height: 350px;                                              
+      303 +}                                                             
+      304 +                                                              
+      305 +.popular-flip-card .flip-card-inner {                         
+      306 +  position: relative;                                         
+      307 +  width: 100%;                                                
+      308 +  height: 100%;                                               
+      309 +  transition: transform 0.6s ease;                            
+      310 +  transform-style: preserve-3d;                               
+      311 +}                                                             
+      312 +                                                              
+      313 +.popular-flip-card:hover .flip-card-inner {                   
+      314 +  transform: rotateY(180deg);                                 
+      315 +}                                                             
+      316 +                                                              
+      317 +.popular-flip-card .flip-card-front,                          
+      318 +.popular-flip-card .flip-card-back {                          
+      319 +  position: absolute;                                         
+      320 +  width: 100%;                                                
+      321 +  height: 100%;                                               
+      322 +  backface-visibility: hidden;                                
+      323    border-radius: 20px;                                        
+      324    overflow: hidden;                                           
+      325    box-shadow: var(--shadow);                                  
+      326 -  transition: var(--transition);                              
+      326  }                                                             
+      327                                                                
+      328 -.popular-card:hover {                                         
+      329 -  transform: translateY(-5px);                                
+      330 -  box-shadow: var(--shadow-hover);                            
+      328 +.popular-flip-card .flip-card-front {                         
+      329 +  background: var(--white);                                   
+      330 +  padding: 0;                                                 
+      331 +  display: flex;                                              
+      332 +  flex-direction: column;                                     
+      333  }                                                             
+      334                                                                
+      335 +.popular-flip-card .flip-card-back {                          
+      336 +  transform: rotateY(180deg);                                 
+      337 +  display: flex;                                              
+      338 +  flex-direction: column;                                     
+      339 +  align-items: center;                                        
+      340 +  justify-content: center;                                    
+      341 +  padding: 2rem;                                              
+      342 +  text-align: center;                                         
+      343 +}                                                             
+      344 +                                                              
+      345 +.popular-flip-card:nth-child(1) .flip-card-back {             
+      346 +  background: linear-gradient(145deg, var(--matcha),          
+          +var(--matcha-dark));                                          
+      347 +}                                                             
+      348 +                                                              
+      349 +.popular-flip-card:nth-child(2) .flip-card-back {             
+      350 +  background: linear-gradient(145deg, var(--pink), #B47A80);  
+      351 +}                                                             
+      352 +                                                              
+      353 +.popular-flip-card:nth-child(3) .flip-card-back {             
+      354 +  background: linear-gradient(145deg, var(--brown), #4A3A2A); 
+      355 +}                                                             
+      356 +                                                              
+      357 +.popular-flip-card .flip-card-back h3 {                       
+      358 +  color: var(--white);                                        
+      359 +  margin-bottom: 1rem;                                        
+      360 +  font-size: 1.3rem;                                          
+      361 +}                                                             
+      362 +                                                              
+      363 +.popular-flip-card .flip-card-back p {                        
+      364 +  color: rgba(255, 255, 255, 0.95);                           
+      365 +  margin-bottom: 1.5rem;                                      
+      366 +}                                                             
+      367 +                                                              
+      368 +.popular-flip-card .flip-card-back .btn {                     
+      369 +  background: var(--white);                                   
+      370 +  color: var(--matcha-dark);                                  
+      371 +  padding: 0.75rem 1.5rem;                                    
+      372 +  font-size: 0.9rem;                                          
+      373 +}                                                             
+      374 +                                                              
+      375 +.popular-flip-card .flip-card-back .btn:hover {               
+      376 +  background: var(--cream);                                   
+      377 +  transform: scale(1.05);                                     
+      378 +}                                                             
+      379 +                                                              
+      380  .popular-img {                                                
+      381    height: 200px;                                              
+      382    background: linear-gradient(135deg, var(--matcha-light),    
+           var(--sage));                                                 
+     ...
+      318    font-size: 4rem;                                            
+      319  }                                                             
+      320                                                                
+      321 -.popular-card:nth-child(2) .popular-img {                     
+      321 +.popular-flip-card:nth-child(2) .popular-img {                
+      322    background: linear-gradient(135deg, var(--pink-light),      
+           var(--pink));                                                 
+      323  }                                                             
+      324                                                                
+      325 -.popular-card:nth-child(3) .popular-img {                     
+      326 -  background: linear-gradient(135deg, var(--brown), #A68B6A); 
+      325 +.popular-flip-card:nth-child(3) .popular-img {                
+      326 +  background: linear-gradient(135deg, var(--brown), #8A7355); 
+      327  }                                                             
+      328                                                                
+      329  .popular-info {                                               
+      330    padding: 1.5rem;                                            
+      331 +  text-align: left;                                           
+      332  }                                                             
+      333                                                                
+      334  .popular-info h3 {                                            
+     ...
+      335    margin-bottom: 0.5rem;                                      
+      336  }                                                             
+      337                                                                
+      338 +.popular-info p {                                             
+      339 +  font-size: 0.9rem;                                          
+      340 +  margin-bottom: 0.5rem;                                      
+      341 +}                                                             
+      342 +                                                              
+      343  .popular-info .price {                                        
+      344    color: var(--pink);                                         
+      345 -  font-weight: 600;                                           
+      346 -  font-size: 1.1rem;                                          
+      345 +  font-weight: 700;                                           
+      346 +  font-size: 1.2rem;                                          
+      347  }                                                             
+      348                                                                
+      349 +/* Legacy popular card */                                     
+      350 +.popular-card {                                               
+      351 +  background: var(--white);                                   
+      352 +  border-radius: 20px;                                        
+      353 +  overflow: hidden;                                           
+      354 +  box-shadow: var(--shadow);                                  
+      355 +  transition: var(--transition);                              
+      356 +}                                                             
+      357 +                                                              
+      358 +.popular-card:hover {                                         
+      359 +  transform: translateY(-5px);                                
+      360 +  box-shadow: var(--shadow-hover);                            
+      361 +}                                                             
+      362 +                                                              
+      363  /* ===== Menu Page ===== */                                   
+      364  .page-hero {                                                  
+      365    padding: 10rem 5% 4rem;                                     
+     ...
+      371    gap: 1rem;                                                  
+      372    margin-bottom: 2rem;                                        
+      373    padding-bottom: 1rem;                                       
+      374 -  border-bottom: 2px solid var(--sage);                       
+      374 +  border-bottom: 3px solid var(--matcha);                     
+      375  }                                                             
+      376                                                                
+      377  .category-title span {                                        
+     ...
+      391    background: var(--cream);                                   
+      392    border-radius: 15px;                                        
+      393    transition: var(--transition);                              
+      394 +  border-left: 4px solid transparent;                         
+      395  }                                                             
+      396                                                                
+      397  .menu-item:hover {                                            
+      398 -  background: var(--sage);                                    
+      398 +  background: linear-gradient(90deg, var(--sage-light),       
+          +var(--cream));                                                
+      399 +  border-left-color: var(--matcha);                           
+      400  }                                                             
+      401                                                                
+      402  .item-info h4 {                                               
+     ...
+      446  }                                                             
+      447                                                                
+      448  .about-image {                                                
+      449 -  background: linear-gradient(135deg, var(--matcha-light      
+          -), var(--pink-light));                                        
+      449 +  background: linear-gradient(135deg, var(--matcha            
+          +), var(--pink));                                              
+      450    border-radius: 20px;                                        
+      451    height: 400px;                                              
+      452    display: flex;                                              
+     ...
+      467    margin: 0 auto;                                             
+      468  }                                                             
+      469                                                                
+      470 +/* Value Flip Cards */                                        
+      471 +.value-flip-card {                                            
+      472 +  perspective: 1000px;                                        
+      473 +  height: 250px;                                              
+      474 +}                                                             
+      475 +                                                              
+      476 +.value-flip-card .flip-card-inner {                           
+      477 +  position: relative;                                         
+      478 +  width: 100%;                                                
+      479 +  height: 100%;                                               
+      480 +  transition: transform 0.6s ease;                            
+      481 +  transform-style: preserve-3d;                               
+      482 +}                                                             
+      483 +                                                              
+      484 +.value-flip-card:hover .flip-card-inner {                     
+      485 +  transform: rotateY(180deg);                                 
+      486 +}                                                             
+      487 +                                                              
+      488 +.value-flip-card .flip-card-front,                            
+      489 +.value-flip-card .flip-card-back {                            
+      490 +  position: absolute;                                         
+      491 +  width: 100%;                                                
+      492 +  height: 100%;                                               
+      493 +  backface-visibility: hidden;                                
+      494 +  border-radius: 20px;                                        
+      495 +  display: flex;                                              
+      496 +  flex-direction: column;                                     
+      497 +  align-items: center;                                        
+      498 +  justify-content: center;                                    
+      499 +  padding: 2rem;                                              
+      500 +  text-align: center;                                         
+      501 +}                                                             
+      502 +                                                              
+      503 +.value-flip-card .flip-card-front {                           
+      504 +  background: var(--white);                                   
+      505 +  border: 2px solid var(--sage);                              
+      506 +}                                                             
+      507 +                                                              
+      508 +.value-flip-card .flip-card-back {                            
+      509 +  background: var(--matcha-dark);                             
+      510 +  color: var(--white);                                        
+      511 +  transform: rotateY(180deg);                                 
+      512 +}                                                             
+      513 +                                                              
+      514 +.value-flip-card .flip-card-front .icon {                     
+      515 +  font-size: 2.5rem;                                          
+      516 +  margin-bottom: 1rem;                                        
+      517 +}                                                             
+      518 +                                                              
+      519 +.value-flip-card .flip-card-front h3 {                        
+      520 +  color: var(--matcha-dark);                                  
+      521 +  margin-bottom: 0.5rem;                                      
+      522 +}                                                             
+      523 +                                                              
+      524 +.value-flip-card .flip-card-back p {                          
+      525 +  color: rgba(255, 255, 255, 0.95);                           
+      526 +  line-height: 1.6;                                           
+      527 +}                                                             
+      528 +                                                              
+      529 +.value-flip-card:nth-child(1) .flip-card-back {               
+      530 +  background: linear-gradient(145deg, var(--matcha),          
+          +var(--matcha-dark));                                          
+      531 +}                                                             
+      532 +                                                              
+      533 +.value-flip-card:nth-child(2) .flip-card-back {               
+      534 +  background: linear-gradient(145deg, var(--sage),            
+          +var(--matcha));                                               
+      535 +}                                                             
+      536 +                                                              
+      537 +.value-flip-card:nth-child(3) .flip-card-back {               
+      538 +  background: linear-gradient(145deg, var(--pink), #B47A80);  
+      539 +}                                                             
+      540 +                                                              
+      541 +.value-flip-card:nth-child(4) .flip-card-back {               
+      542 +  background: linear-gradient(145deg, var(--matcha-light),    
+          +var(--matcha-dark));                                          
+      543 +}                                                             
+      544 +                                                              
+      545 +/* Legacy value card */                                       
+      546  .value-card {                                                 
+      547    background: var(--white);                                   
+      548    padding: 2rem;                                              
+     ...
+      518  }                                                             
+      519                                                                
+      520  .team-member:nth-child(1) .team-photo {                       
+      521 -  background: linear-gradient(135deg, var(--sage),            
+          -var(--matcha-light));                                         
+      521 +  background: linear-gradient(135deg, var(--sage),            
+          +var(--matcha));                                               
+      522  }                                                             
+      523                                                                
+      524  .team-member:nth-child(2) .team-photo {                       
+     ...
+      546    margin: 0 auto;                                             
+      547  }                                                             
+      548                                                                
+      549 -.gallery-item {                                               
+      549 +/* Gallery Flip Cards */                                      
+      550 +.gallery-flip-card {                                          
+      551 +  perspective: 1000px;                                        
+      552 +  aspect-ratio: 1;                                            
+      553 +}                                                             
+      554 +                                                              
+      555 +.gallery-flip-card .flip-card-inner {                         
+      556    position: relative;                                         
+      557 +  width: 100%;                                                
+      558 +  height: 100%;                                               
+      559 +  transition: transform 0.6s ease;                            
+      560 +  transform-style: preserve-3d;                               
+      561 +}                                                             
+      562 +                                                              
+      563 +.gallery-flip-card:hover .flip-card-inner {                   
+      564 +  transform: rotateY(180deg);                                 
+      565 +}                                                             
+      566 +                                                              
+      567 +.gallery-flip-card .flip-card-front,                          
+      568 +.gallery-flip-card .flip-card-back {                          
+      569 +  position: absolute;                                         
+      570 +  width: 100%;                                                
+      571 +  height: 100%;                                               
+      572 +  backface-visibility: hidden;                                
+      573    border-radius: 20px;                                        
+      574 -  overflow: hidden;                                           
+      575 -  aspect-ratio: 1;                                            
+      576 -  background: linear-gradient(135deg, var(--sage),            
+          -var(--matcha-light));                                         
+      574    display: flex;                                              
+      575 +  flex-direction: column;                                     
+      576    align-items: center;                                        
+      577    justify-content: center;                                    
+      578 -  font-size: 4rem;                                            
+      578    cursor: pointer;                                            
+      579 -  transition: var(--transition);                              
+      579  }                                                             
+      580                                                                
+      581 -.gallery-item:nth-child(2) {                                  
+      581 +.gallery-flip-card .flip-card-front {                         
+      582 +  font-size: 4rem;                                            
+      583 +}                                                             
+      584 +                                                              
+      585 +.gallery-flip-card .flip-card-back {                          
+      586 +  transform: rotateY(180deg);                                 
+      587 +  padding: 2rem;                                              
+      588 +  text-align: center;                                         
+      589 +}                                                             
+      590 +                                                              
+      591 +.gallery-flip-card .flip-card-back h3 {                       
+      592 +  color: var(--white);                                        
+      593 +  margin-bottom: 0.5rem;                                      
+      594 +}                                                             
+      595 +                                                              
+      596 +.gallery-flip-card .flip-card-back p {                        
+      597 +  color: rgba(255, 255, 255, 0.9);                            
+      598 +  font-size: 0.95rem;                                         
+      599 +}                                                             
+      600 +                                                              
+      601 +/* Gallery card color variations */                           
+      602 +.gallery-flip-card:nth-child(1) .flip-card-front {            
+      603 +  background: linear-gradient(135deg, var(--sage),            
+          +var(--matcha));                                               
+      604 +}                                                             
+      605 +.gallery-flip-card:nth-child(1) .flip-card-back {             
+      606 +  background: var(--matcha-dark);                             
+      607 +}                                                             
+      608 +                                                              
+      609 +.gallery-flip-card:nth-child(2) .flip-card-front {            
+      610    background: linear-gradient(135deg, var(--pink-light),      
+           var(--pink));                                                 
+      611  }                                                             
+      612 +.gallery-flip-card:nth-child(2) .flip-card-back {             
+      613 +  background: linear-gradient(145deg, var(--pink), #B47A80);  
+      614 +}                                                             
+      615                                                                
+      616 -.gallery-item:nth-child(3) {                                  
+      616 +.gallery-flip-card:nth-child(3) .flip-card-front {            
+      617    background: linear-gradient(135deg, var(--cream),           
+           var(--brown));                                                
+      618  }                                                             
+      619 +.gallery-flip-card:nth-child(3) .flip-card-back {             
+      620 +  background: var(--brown);                                   
+      621 +}                                                             
+      622                                                                
+      623 -.gallery-item:nth-child(4) {                                  
+      623 +.gallery-flip-card:nth-child(4) .flip-card-front {            
+      624    background: linear-gradient(135deg, var(--matcha),          
+           var(--matcha-dark));                                          
+      625  }                                                             
+      626 +.gallery-flip-card:nth-child(4) .flip-card-back {             
+      627 +  background: linear-gradient(145deg, var(--matcha-dark),     
+          +#1A3A12);                                                     
+      628 +}                                                             
+      629                                                                
+      630 -.gallery-item:nth-child(5) {                                  
+      631 -  background: linear-gradient(135deg, var(--pink), var(--     
+          -matcha-light));                                               
+      630 +.gallery-flip-card:nth-child(5) .flip-card-front {            
+      631 +  background: linear-gradient(135deg, var(--pink), var(--sage 
+          +));                                                           
+      632  }                                                             
+      633 +.gallery-flip-card:nth-child(5) .flip-card-back {             
+      634 +  background: linear-gradient(145deg, var(--sage),            
+          +var(--matcha));                                               
+      635 +}                                                             
+      636                                                                
+      637 -.gallery-item:nth-child(6) {                                  
+      638 -  background: linear-gradient(135deg, var(--sage              
+          -), var(--pink-light));                                        
+      637 +.gallery-flip-card:nth-child(6) .flip-card-front {            
+      638 +  background: linear-gradient(135deg, var(--sage-light        
+          +), var(--pink-light));                                        
+      639  }                                                             
+      640 +.gallery-flip-card:nth-child(6) .flip-card-back {             
+      641 +  background: linear-gradient(145deg, var(--matcha),          
+          +var(--pink));                                                 
+      642 +}                                                             
+      643                                                                
+      644 +/* Legacy gallery item */                                     
+      645 +.gallery-item {                                               
+      646 +  position: relative;                                         
+      647 +  border-radius: 20px;                                        
+      648 +  overflow: hidden;                                           
+      649 +  aspect-ratio: 1;                                            
+      650 +  background: linear-gradient(135deg, var(--sage),            
+          +var(--matcha-light));                                         
+      651 +  display: flex;                                              
+      652 +  align-items: center;                                        
+      653 +  justify-content: center;                                    
+      654 +  font-size: 4rem;                                            
+      655 +  cursor: pointer;                                            
+      656 +  transition: var(--transition);                              
+      657 +}                                                             
+      658 +                                                              
+      659  .gallery-overlay {                                            
+      660    position: absolute;                                         
+      661    inset: 0;                                                   
+      662 -  background: rgba(45, 59, 45, 0.7);                          
+      662 +  background: rgba(26, 42, 26, 0.8);                          
+      663    display: flex;                                              
+      664    align-items: center;                                        
+      665    justify-content: center;                                    
+     ...
+      721    margin: 0 auto;                                             
+      722    border-radius: 20px;                                        
+      723    overflow: hidden;                                           
+      724 -  background: linear-gradient(135deg, var(--sage),            
+          -var(--matcha-light));                                         
+      724 +  background: linear-gradient(135deg, var(--sage),            
+          +var(--matcha));                                               
+      725    height: 400px;                                              
+      726    display: flex;                                              
+      727    align-items: center;                                        
+     ...
+      736                                                                
+      737  .map-container p {                                            
+      738    font-size: 1.2rem;                                          
+      739 -  color: var(--matcha-dark);                                  
+      739 +  color: var(--white);                                        
+      740  }                                                             
+      741                                                                
+      742  /* ===== Footer ===== */                                      
+     ...
+      864    .item-price {                                               
+      865      margin-left: 0;                                           
+      866    }                                                           
+      867 +                                                              
+      868 +  /* Mobile flip cards */                                     
+      869 +  .flip-card,                                                 
+      870 +  .popular-flip-card,                                         
+      871 +  .value-flip-card,                                           
+      872 +  .gallery-flip-card {                                        
+      873 +    height: auto;                                             
+      874 +    min-height: 250px;                                        
+      875 +  }                                                           
+      876 +                                                              
+      877 +  .flip-card .flip-card-inner,                                
+      878 +  .popular-flip-card .flip-card-inner,                        
+      879 +  .value-flip-card .flip-card-inner,                          
+      880 +  .gallery-flip-card .flip-card-inner {                       
+      881 +    transform: none !important;                               
+      882 +  }                                                           
+      883 +                                                              
+      884 +  .flip-card .flip-card-back,                                 
+      885 +  .popular-flip-card .flip-card-back,                         
+      886 +  .value-flip-card .flip-card-back,                           
+      887 +  .gallery-flip-card .flip-card-back {                        
+      888 +    position: relative;                                       
+      889 +    transform: none;                                          
+      890 +    margin-top: -20px;                                        
+      891 +    border-radius: 0 0 20px 20px;                             
+      892 +  }                                                           
+      893 +                                                              
+      894 +  .flip-card .flip-card-front,                                
+      895 +  .popular-flip-card .flip-card-front,                        
+      896 +  .value-flip-card .flip-card-front,                          
+      897 +  .gallery-flip-card .flip-card-front {                       
+      898 +    position: relative;                                       
+      899 +    border-radius: 20px 20px 0 0;                             
+      900 +  }                                                           
+      901 +                                                              
+      902 +  .popular-flip-card {                                        
+      903 +    height: auto;                                             
+      904 +  }                                                           
+      905 +                                                              
+      906 +  .popular-flip-card .flip-card-front,                        
+      907 +  .popular-flip-card .flip-card-back {                        
+      908 +    position: relative;                                       
+      909 +    height: auto;                                             
+      910 +  }                                                           
+      911 +                                                              
+      912 +  .gallery-flip-card {                                        
+      913 +    aspect-ratio: auto;                                       
+      914 +  }                                                           
+      915 +                                                              
+      916 +  .gallery-flip-card .flip-card-front {                       
+      917 +    padding: 3rem;                                            
+      918 +  }                                                           
+      919  }                                                             
+      920                                                                
+      921  /* ===== Animations ===== */                                  
+     ...
+      882    animation: fadeInUp 1s ease;                                
+      883  }                                                             
+      884                                                                
+      885 +.flip-card,                                                   
+      886 +.popular-flip-card,                                           
+      887 +.value-flip-card,                                             
+      888 +.gallery-flip-card,                                           
+      889  .feature-card,                                                
+      890  .popular-card,                                                
+      891  .value-card,                                                  
+     ...
+      889    animation: fadeInUp 0.6s ease backwards;                    
+      890  }                                                             
+      891                                                                
+      892 +.flip-card:nth-child(2),                                      
+      893 +.popular-flip-card:nth-child(2),                              
+      894 +.value-flip-card:nth-child(2),                                
+      895 +.gallery-flip-card:nth-child(2),                              
+      896  .feature-card:nth-child(2),                                   
+      897  .popular-card:nth-child(2),                                   
+      898  .value-card:nth-child(2),                                     
+     ...
+      896    animation-delay: 0.1s;                                      
+      897  }                                                             
+      898                                                                
+      899 +.flip-card:nth-child(3),                                      
+      900 +.popular-flip-card:nth-child(3),                              
+      901 +.value-flip-card:nth-child(3),                                
+      902 +.gallery-flip-card:nth-child(3),                              
+      903  .feature-card:nth-child(3),                                   
+      904  .popular-card:nth-child(3),                                   
+      905  .value-card:nth-child(3),                                     
+     ...
+      903    animation-delay: 0.2s;                                      
+      904  }                                                             
+      905                                                                
+      906 +.value-flip-card:nth-child(4),                                
+      907 +.gallery-flip-card:nth-child(4),                              
+      908  .gallery-item:nth-child(4) {                                  
+      909    animation-delay: 0.3s;                                      
+      910  }                                                             
+      911                                                                
+      912 +.gallery-flip-card:nth-child(5),                              
+      913  .gallery-item:nth-child(5) {                                  
+      914    animation-delay: 0.4s;                                      
+      915  }                                                             
+      916                                                                
+      917 +.gallery-flip-card:nth-child(6),                              
+      918  .gallery-item:nth-child(6) {                                  
+      919    animation-delay: 0.5s;                                      
+      920  }                                                             
+
+⏺ Now let me update the HTML files to use the flip card structure.
+
+⏺ Write(index.html)
+  ⎿  Added 88 lines, removed 31 lines
+      44        <p>We bring you the finest matcha experience with a      
+          California coastal twist</p>                                   
+      45      </div>                                                     
+      46      <div class="features-grid">                                
+      47 -      <div class="feature-card">                               
+      48 -        <div class="feature-icon">🍵</div>                     
+      49 -        <h3>Premium Matcha</h3>                                
+      50 -        <p>Sourced directly from Uji, Japan. Our               
+         -ceremonial-grade matcha delivers authentic flavor in every     
+         -sip.</p>                                                       
+      47 +      <!-- Flip Card 1 -->                                     
+      48 +      <div class="flip-card">                                  
+      49 +        <div class="flip-card-inner">                          
+      50 +          <div class="flip-card-front">                        
+      51 +            <div class="flip-icon">🍵</div>                    
+      52 +            <h3>Premium Matcha</h3>                            
+      53 +            <p>Sourced directly from Uji, Japan</p>            
+      54 +          </div>                                               
+      55 +          <div class="flip-card-back">                         
+      56 +            <div class="back-icon">✨</div>                     
+      57 +            <p>Our ceremonial-grade matcha is stone-ground     
+         +fresh and delivers authentic, rich flavor in every sip. We     
+         +partner directly with farms in Uji for the highest             
+         +quality.</p>                                                   
+      58 +          </div>                                               
+      59 +        </div>                                                 
+      60        </div>                                                   
+      61 -      <div class="feature-card">                               
+      62 -        <div class="feature-icon">🧋</div>                     
+      63 -        <h3>Fresh Boba Daily</h3>                              
+      64 -        <p>Our tapioca pearls are made fresh every morning for 
+         - the perfect chewy texture you crave.</p>                      
+      61 +      <!-- Flip Card 2 -->                                     
+      62 +      <div class="flip-card">                                  
+      63 +        <div class="flip-card-inner">                          
+      64 +          <div class="flip-card-front">                        
+      65 +            <div class="flip-icon">🧋</div>                    
+      66 +            <h3>Fresh Boba Daily</h3>                          
+      67 +            <p>Made in-house every morning</p>                 
+      68 +          </div>                                               
+      69 +          <div class="flip-card-back">                         
+      70 +            <div class="back-icon">🫧</div>                    
+      71 +            <p>Our tapioca pearls are cooked fresh every       
+         +morning for that perfect chewy texture. We never use day-old   
+         +boba - only the freshest for our customers!</p>                
+      72 +          </div>                                               
+      73 +        </div>                                                 
+      74        </div>                                                   
+      75 -      <div class="feature-card">                               
+      76 -        <div class="feature-icon">🌊</div>                     
+      77 -        <h3>Beach Vibes</h3>                                   
+      78 -        <p>Located steps from the sand, enjoy your drink with  
+         -stunning Pacific Ocean views.</p>                              
+      75 +      <!-- Flip Card 3 -->                                     
+      76 +      <div class="flip-card">                                  
+      77 +        <div class="flip-card-inner">                          
+      78 +          <div class="flip-card-front">                        
+      79 +            <div class="flip-icon">🌊</div>                    
+      80 +            <h3>Beach Vibes</h3>                               
+      81 +            <p>Steps from the Pacific Ocean</p>                
+      82 +          </div>                                               
+      83 +          <div class="flip-card-back">                         
+      84 +            <div class="back-icon">☀️</div>                    
+      85 +            <p>Located just steps from Ventura's beautiful     
+         +coastline, enjoy your drink with stunning ocean views and the  
+         +calming sound of waves.</p>                                    
+      86 +          </div>                                               
+      87 +        </div>                                                 
+      88        </div>                                                   
+      89      </div>                                                     
+      90    </section>                                                   
+     ...
+       69        <p>The drinks our regulars can't stop ordering</p>      
+       70      </div>                                                    
+       71      <div class="popular-grid">                                
+       72 -      <div class="popular-card">                              
+       73 -        <div class="popular-img">🍵</div>                     
+       74 -        <div class="popular-info">                            
+       75 -          <h3>Classic Matcha Latte</h3>                       
+       76 -          <p>Our signature drink with premium Uji matcha and  
+          -silky oat milk</p>                                            
+       77 -          <span class="price">$6.50</span>                    
+       72 +      <!-- Popular Flip Card 1 -->                            
+       73 +      <div class="popular-flip-card">                         
+       74 +        <div class="flip-card-inner">                         
+       75 +          <div class="flip-card-front">                       
+       76 +            <div class="popular-img">🍵</div>                 
+       77 +            <div class="popular-info">                        
+       78 +              <h3>Classic Matcha Latte</h3>                   
+       79 +              <p>Premium Uji matcha with silky oat milk</p>   
+       80 +              <span class="price">$6.50</span>                
+       81 +            </div>                                            
+       82 +          </div>                                              
+       83 +          <div class="flip-card-back">                        
+       84 +            <h3>Classic Matcha Latte</h3>                     
+       85 +            <p>Our signature drink that started it all.       
+          +Perfectly balanced earthy notes with creamy sweetness.        
+          +Available hot or iced!</p>                                    
+       86 +            <a href="menu.html" class="btn">Order Now</a>     
+       87 +          </div>                                              
+       88          </div>                                                
+       89        </div>                                                  
+       90 -      <div class="popular-card">                              
+       91 -        <div class="popular-img">🌸</div>                     
+       92 -        <div class="popular-info">                            
+       93 -          <h3>Strawberry Matcha</h3>                          
+       94 -          <p>Sweet strawberry meets earthy matcha with boba   
+          -pearls</p>                                                    
+       95 -          <span class="price">$7.50</span>                    
+       90 +      <!-- Popular Flip Card 2 -->                            
+       91 +      <div class="popular-flip-card">                         
+       92 +        <div class="flip-card-inner">                         
+       93 +          <div class="flip-card-front">                       
+       94 +            <div class="popular-img">🌸</div>                 
+       95 +            <div class="popular-info">                        
+       96 +              <h3>Strawberry Matcha</h3>                      
+       97 +              <p>Sweet strawberry meets earthy matcha</p>     
+       98 +              <span class="price">$7.50</span>                
+       99 +            </div>                                            
+      100 +          </div>                                              
+      101 +          <div class="flip-card-back">                        
+      102 +            <h3>Strawberry Matcha</h3>                        
+      103 +            <p>A beautiful pink and green layered drink       
+          +that's as Instagram-worthy as it is delicious. Fresh          
+          +strawberry puree with premium matcha!</p>                     
+      104 +            <a href="menu.html" class="btn">Order Now</a>     
+      105 +          </div>                                              
+      106          </div>                                                
+      107        </div>                                                  
+      108 -      <div class="popular-card">                              
+      109 -        <div class="popular-img">🤎</div>                     
+      110 -        <div class="popular-info">                            
+      111 -          <h3>Brown Sugar Boba</h3>                           
+      112 -          <p>Tiger-striped classic with fresh milk and        
+          -caramelized boba</p>                                          
+      113 -          <span class="price">$7.00</span>                    
+      108 +      <!-- Popular Flip Card 3 -->                            
+      109 +      <div class="popular-flip-card">                         
+      110 +        <div class="flip-card-inner">                         
+      111 +          <div class="flip-card-front">                       
+      112 +            <div class="popular-img">🤎</div>                 
+      113 +            <div class="popular-info">                        
+      114 +              <h3>Brown Sugar Boba</h3>                       
+      115 +              <p>Tiger-striped with caramelized boba</p>      
+      116 +              <span class="price">$7.00</span>                
+      117 +            </div>                                            
+      118 +          </div>                                              
+      119 +          <div class="flip-card-back">                        
+      120 +            <h3>Brown Sugar Boba</h3>                         
+      121 +            <p>Our take on the viral tiger milk tea!          
+          +Handcrafted brown sugar syrup drizzled over fresh milk with   
+          +our famous chewy boba pearls.</p>                             
+      122 +            <a href="menu.html" class="btn">Order Now</a>     
+      123 +          </div>                                              
+      124          </div>                                                
+      125        </div>                                                  
+      126      </div>                                                    
+      127    </section>                                                  
+      128                                                                
+      129    <!-- CTA Section -->                                        
+      130 -  <section class="features" style="background:                
+          -linear-gradient(135deg, var(--pink-light), var(--sage));">    
+      130 +  <section class="features" style="background:                
+          +linear-gradient(135deg, var(--pink-light), var(--sage-light   
+          +));">                                                         
+      131      <div class="section-header">                              
+      132        <h2>Visit Us Today</h2>                                 
+      133        <p>Open daily from 8am to 8pm. Come for the matcha,     
+           stay for the views!</p>                                       
+
+⏺ Write(about.html)
+  ⎿  Added 44 lines, removed 16 lines
+       51        <p>The principles that guide everything we do</p>       
+       52      </div>                                                    
+       53      <div class="values-grid">                                 
+       54 -      <div class="value-card">                                
+       55 -        <div class="icon">🌱</div>                            
+       56 -        <h3>Quality First</h3>                                
+       57 -        <p>We source our matcha directly from Uji, Japan, and 
+          - use only premium ingredients. No shortcuts, no               
+          -compromises.</p>                                              
+       54 +      <!-- Value Flip Card 1 -->                              
+       55 +      <div class="value-flip-card">                           
+       56 +        <div class="flip-card-inner">                         
+       57 +          <div class="flip-card-front">                       
+       58 +            <div class="icon">🌱</div>                        
+       59 +            <h3>Quality First</h3>                            
+       60 +          </div>                                              
+       61 +          <div class="flip-card-back">                        
+       62 +            <p>We source our matcha directly from Uji, Japan, 
+          + and use only premium ingredients. No shortcuts, no           
+          +compromises. Every drink is crafted with care.</p>            
+       63 +          </div>                                              
+       64 +        </div>                                                
+       65        </div>                                                  
+       66 -      <div class="value-card">                                
+       67 -        <div class="icon">🌊</div>                            
+       68 -        <h3>Sustainability</h3>                               
+       69 -        <p>From biodegradable straws to compostable cups,     
+          -we're committed to protecting the ocean we love so much.</p>  
+       66 +      <!-- Value Flip Card 2 -->                              
+       67 +      <div class="value-flip-card">                           
+       68 +        <div class="flip-card-inner">                         
+       69 +          <div class="flip-card-front">                       
+       70 +            <div class="icon">🌊</div>                        
+       71 +            <h3>Sustainability</h3>                           
+       72 +          </div>                                              
+       73 +          <div class="flip-card-back">                        
+       74 +            <p>From biodegradable straws to compostable cups, 
+          + we're committed to protecting the ocean we love. We aim to   
+          +minimize our environmental footprint every day.</p>           
+       75 +          </div>                                              
+       76 +        </div>                                                
+       77        </div>                                                  
+       78 -      <div class="value-card">                                
+       79 -        <div class="icon">💚</div>                            
+       80 -        <h3>Community</h3>                                    
+       81 -        <p>We're more than a cafe - we're a gathering place.  
+          -We support local artists, host events, and give back to       
+          -Ventura.</p>                                                  
+       78 +      <!-- Value Flip Card 3 -->                              
+       79 +      <div class="value-flip-card">                           
+       80 +        <div class="flip-card-inner">                         
+       81 +          <div class="flip-card-front">                       
+       82 +            <div class="icon">💚</div>                        
+       83 +            <h3>Community</h3>                                
+       84 +          </div>                                              
+       85 +          <div class="flip-card-back">                        
+       86 +            <p>We're more than a cafe - we're a gathering     
+          +place. We support local artists, host community events, and   
+          +give back to Ventura whenever we can.</p>                     
+       87 +          </div>                                              
+       88 +        </div>                                                
+       89        </div>                                                  
+       90 -      <div class="value-card">                                
+       91 -        <div class="icon">✨</div>                             
+       92 -        <h3>Authenticity</h3>                                 
+       93 -        <p>We honor traditional matcha preparation while      
+          -embracing creativity and innovation in our menu               
+          -offerings.</p>                                                
+       90 +      <!-- Value Flip Card 4 -->                              
+       91 +      <div class="value-flip-card">                           
+       92 +        <div class="flip-card-inner">                         
+       93 +          <div class="flip-card-front">                       
+       94 +            <div class="icon">✨</div>                         
+       95 +            <h3>Authenticity</h3>                             
+       96 +          </div>                                              
+       97 +          <div class="flip-card-back">                        
+       98 +            <p>We honor traditional Japanese matcha           
+          +preparation while embracing creativity. It's about respecting 
+          + the roots while making it accessible to everyone.</p>        
+       99 +          </div>                                              
+      100 +        </div>                                                
+      101        </div>                                                  
+      102      </div>                                                    
+      103    </section>                                                  
+
+⏺ Write(gallery.html)
+  ⎿  Added 96 lines, removed 48 lines
+      34    <!-- Gallery Section -->                                     
+      35    <section class="gallery-section">                            
+      36      <div class="gallery-grid">                                 
+      37 -      <div class="gallery-item">                               
+      38 -        🍵                                                     
+      39 -        <div class="gallery-overlay">                          
+      40 -          <p>Signature Matcha Latte</p>                        
+      37 +      <!-- Gallery Flip Card 1 -->                             
+      38 +      <div class="gallery-flip-card">                          
+      39 +        <div class="flip-card-inner">                          
+      40 +          <div class="flip-card-front">🍵</div>                
+      41 +          <div class="flip-card-back">                         
+      42 +            <h3>Signature Matcha Latte</h3>                    
+      43 +            <p>Our most-loved drink, made with                 
+         +ceremonial-grade Uji matcha and your choice of milk. Pure      
+         +matcha bliss!</p>                                              
+      44 +          </div>                                               
+      45          </div>                                                 
+      46        </div>                                                   
+      47 -      <div class="gallery-item">                               
+      48 -        🌸                                                     
+      49 -        <div class="gallery-overlay">                          
+      50 -          <p>Strawberry Matcha</p>                             
+      47 +      <!-- Gallery Flip Card 2 -->                             
+      48 +      <div class="gallery-flip-card">                          
+      49 +        <div class="flip-card-inner">                          
+      50 +          <div class="flip-card-front">🌸</div>                
+      51 +          <div class="flip-card-back">                         
+      52 +            <h3>Strawberry Matcha</h3>                         
+      53 +            <p>The perfect balance of sweet and earthy. Fresh  
+         +strawberry puree layered with premium matcha.</p>              
+      54 +          </div>                                               
+      55          </div>                                                 
+      56        </div>                                                   
+      57 -      <div class="gallery-item">                               
+      58 -        🧋                                                     
+      59 -        <div class="gallery-overlay">                          
+      60 -          <p>Brown Sugar Boba</p>                              
+      57 +      <!-- Gallery Flip Card 3 -->                             
+      58 +      <div class="gallery-flip-card">                          
+      59 +        <div class="flip-card-inner">                          
+      60 +          <div class="flip-card-front">🧋</div>                
+      61 +          <div class="flip-card-back">                         
+      62 +            <h3>Brown Sugar Boba</h3>                          
+      63 +            <p>Tiger-striped perfection! Caramelized brown     
+         +sugar with fresh milk and our famous chewy boba.</p>           
+      64 +          </div>                                               
+      65          </div>                                                 
+      66        </div>                                                   
+      67 -      <div class="gallery-item">                               
+      68 -        🏖️                                                    
+      69 -        <div class="gallery-overlay">                          
+      70 -          <p>Ocean View Seating</p>                            
+      67 +      <!-- Gallery Flip Card 4 -->                             
+      68 +      <div class="gallery-flip-card">                          
+      69 +        <div class="flip-card-inner">                          
+      70 +          <div class="flip-card-front">🏖️</div>               
+      71 +          <div class="flip-card-back">                         
+      72 +            <h3>Ocean View Seating</h3>                        
+      73 +            <p>Our outdoor patio offers stunning views of the  
+         +Pacific. The perfect spot for sunset sipping.</p>              
+      74 +          </div>                                               
+      75          </div>                                                 
+      76        </div>                                                   
+      77 -      <div class="gallery-item">                               
+      78 -        🍡                                                     
+      79 -        <div class="gallery-overlay">                          
+      80 -          <p>Matcha Mochi Treats</p>                           
+      77 +      <!-- Gallery Flip Card 5 -->                             
+      78 +      <div class="gallery-flip-card">                          
+      79 +        <div class="flip-card-inner">                          
+      80 +          <div class="flip-card-front">🍡</div>                
+      81 +          <div class="flip-card-back">                         
+      82 +            <h3>Matcha Mochi Treats</h3>                       
+      83 +            <p>Soft, chewy mochi filled with sweet matcha      
+         +cream. A perfect pairing with any of our drinks!</p>           
+      84 +          </div>                                               
+      85          </div>                                                 
+      86        </div>                                                   
+      87 -      <div class="gallery-item">                               
+      88 -        ☀️                                                     
+      89 -        <div class="gallery-overlay">                          
+      90 -          <p>Sunny Patio Vibes</p>                             
+      87 +      <!-- Gallery Flip Card 6 -->                             
+      88 +      <div class="gallery-flip-card">                          
+      89 +        <div class="flip-card-inner">                          
+      90 +          <div class="flip-card-front">☀️</div>                
+      91 +          <div class="flip-card-back">                         
+      92 +            <h3>Sunny Patio Vibes</h3>                         
+      93 +            <p>Soak up the California sunshine on our          
+         +plant-filled patio. Free WiFi and good vibes included!</p>     
+      94 +          </div>                                               
+      95          </div>                                                 
+      96        </div>                                                   
+      97      </div>                                                     
+     ...
+       91        <p>See how the magic happens</p>                        
+       92      </div>                                                    
+       93      <div class="gallery-grid">                                
+       94 -      <div class="gallery-item">                              
+       95 -        🫖                                                    
+       96 -        <div class="gallery-overlay">                         
+       97 -          <p>Matcha Preparation</p>                           
+       94 +      <!-- Gallery Flip Card 7 -->                            
+       95 +      <div class="gallery-flip-card">                         
+       96 +        <div class="flip-card-inner">                         
+       97 +          <div class="flip-card-front">🫖</div>               
+       98 +          <div class="flip-card-back">                        
+       99 +            <h3>Matcha Preparation</h3>                       
+      100 +            <p>Each drink starts with traditionally whisked   
+          +matcha using bamboo chasen. Craftsmanship in every cup.</p>   
+      101 +          </div>                                              
+      102          </div>                                                
+      103        </div>                                                  
+      104 -      <div class="gallery-item">                              
+      105 -        🫧                                                    
+      106 -        <div class="gallery-overlay">                         
+      107 -          <p>Fresh Boba Making</p>                            
+      104 +      <!-- Gallery Flip Card 8 -->                            
+      105 +      <div class="gallery-flip-card">                         
+      106 +        <div class="flip-card-inner">                         
+      107 +          <div class="flip-card-front">🫧</div>               
+      108 +          <div class="flip-card-back">                        
+      109 +            <h3>Fresh Boba Making</h3>                        
+      110 +            <p>Our boba is made fresh every single morning.   
+          +We never serve day-old pearls - only the best!</p>            
+      111 +          </div>                                              
+      112          </div>                                                
+      113        </div>                                                  
+      114 -      <div class="gallery-item">                              
+      115 -        ✨                                                     
+      116 -        <div class="gallery-overlay">                         
+      117 -          <p>Cozy Interior</p>                                
+      114 +      <!-- Gallery Flip Card 9 -->                            
+      115 +      <div class="gallery-flip-card">                         
+      116 +        <div class="flip-card-inner">                         
+      117 +          <div class="flip-card-front">✨</div>                
+      118 +          <div class="flip-card-back">                        
+      119 +            <h3>Cozy Interior</h3>                            
+      120 +            <p>Minimalist Japanese-inspired decor meets       
+          +California coastal charm. A space designed for                
+          +relaxation.</p>                                               
+      121 +          </div>                                              
+      122          </div>                                                
+      123        </div>                                                  
+      124 -      <div class="gallery-item">                              
+      125 -        🌅                                                    
+      126 -        <div class="gallery-overlay">                         
+      127 -          <p>Sunset at the Cafe</p>                           
+      124 +      <!-- Gallery Flip Card 10 -->                           
+      125 +      <div class="gallery-flip-card">                         
+      126 +        <div class="flip-card-inner">                         
+      127 +          <div class="flip-card-front">🌅</div>               
+      128 +          <div class="flip-card-back">                        
+      129 +            <h3>Sunset at the Cafe</h3>                       
+      130 +            <p>Golden hour hits different here. Join us for   
+          +evening drinks with the most incredible sunset views.</p>     
+      131 +          </div>                                              
+      132          </div>                                                
+      133        </div>                                                  
+      134 -      <div class="gallery-item">                              
+      135 -        💚                                                    
+      136 -        <div class="gallery-overlay">                         
+      137 -          <p>Team Love</p>                                    
+      134 +      <!-- Gallery Flip Card 11 -->                           
+      135 +      <div class="gallery-flip-card">                         
+      136 +        <div class="flip-card-inner">                         
+      137 +          <div class="flip-card-front">💚</div>               
+      138 +          <div class="flip-card-back">                        
+      139 +            <h3>Team Love</h3>                                
+      140 +            <p>Our baristas are passionate about what they    
+          +do. Come meet the friendly faces behind your drinks!</p>      
+      141 +          </div>                                              
+      142          </div>                                                
+      143        </div>                                                  
+      144 -      <div class="gallery-item">                              
+      145 -        🎨                                                    
+      146 -        <div class="gallery-overlay">                         
+      147 -          <p>Latte Art</p>                                    
+      144 +      <!-- Gallery Flip Card 12 -->                           
+      145 +      <div class="gallery-flip-card">                         
+      146 +        <div class="flip-card-inner">                         
+      147 +          <div class="flip-card-front">🎨</div>               
+      148 +          <div class="flip-card-back">                        
+      149 +            <h3>Latte Art</h3>                                
+      150 +            <p>Every drink is a canvas. Our baristas love     
+          +creating beautiful matcha art for your enjoyment.</p>         
+      151 +          </div>                                              
+      152          </div>                                                
+      153        </div>                                                  
+      154      </div>                                                    
+
+⏺ Done! I've made both changes:
+
+  Darker Green Color Scheme:
+  - Primary dark green: #2D4A22 (deep forest green)
+  - Main matcha: #3D5A32 (rich dark green)
+  - Matcha light: #4A6B3F (medium dark green)
+  - Sage: #6B8F5A / #8BAF7A (darker sage tones)
+  - Text: #1A2A1A (very dark green)
+
+  Flip Cards Added:
+  - Home page: Feature cards and popular items now flip on hover to reveal more
+  details
+  - About page: Value cards flip to show expanded descriptions
+  - Gallery page: All gallery items flip to show titles and descriptions
+
+  The flip animation uses 3D CSS transforms with rotateY(180deg) for a smooth
+  effect. On mobile, cards stack vertically showing both sides since hover isn't
+   reliable on touch devices.
+
+  To view the updated site:
+  open /Users/victoriaflores/Desktop/matcha-boba-house/index.html
+
+✻ Cogitated for 3m 17s
+
+❯ Add this sections to index.html:                                          
+  - A "Featured Drinks" section showing 3 signature drinks with images,     
+  names, and short descriptions                                             
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ I'll add a "Featured Drinks" section with styles. Let me update both the CSS
+  and HTML.
+
+⏺ Update(styles.css)
+  ⎿  Added 119 lines
+      372    margin-bottom: 0.5rem;                                      
+      373  }                                                             
+      374                                                                
+      375 +/* ===== Featured Drinks Section ===== */                     
+      376 +.featured-drinks {                                            
+      377 +  background: var(--matcha-dark);                             
+      378 +  padding: 5rem 5%;                                           
+      379 +}                                                             
+      380 +                                                              
+      381 +.featured-drinks .section-header h2 {                         
+      382 +  color: var(--white);                                        
+      383 +}                                                             
+      384 +                                                              
+      385 +.featured-drinks .section-header p {                          
+      386 +  color: rgba(255, 255, 255, 0.8);                            
+      387 +}                                                             
+      388 +                                                              
+      389 +.featured-grid {                                              
+      390 +  display: grid;                                              
+      391 +  grid-template-columns: repeat(auto-fit, minmax(320px,       
+          +1fr));                                                        
+      392 +  gap: 2.5rem;                                                
+      393 +  max-width: 1200px;                                          
+      394 +  margin: 0 auto;                                             
+      395 +}                                                             
+      396 +                                                              
+      397 +.featured-drink {                                             
+      398 +  position: relative;                                         
+      399 +  border-radius: 24px;                                        
+      400 +  overflow: hidden;                                           
+      401 +  background: var(--white);                                   
+      402 +  box-shadow: var(--shadow-hover);                            
+      403 +  transition: var(--transition);                              
+      404 +}                                                             
+      405 +                                                              
+      406 +.featured-drink:hover {                                       
+      407 +  transform: translateY(-8px);                                
+      408 +  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);                 
+      409 +}                                                             
+      410 +                                                              
+      411 +.featured-drink-image {                                       
+      412 +  height: 280px;                                              
+      413 +  display: flex;                                              
+      414 +  align-items: center;                                        
+      415 +  justify-content: center;                                    
+      416 +  font-size: 6rem;                                            
+      417 +  position: relative;                                         
+      418 +  overflow: hidden;                                           
+      419 +}                                                             
+      420 +                                                              
+      421 +.featured-drink:nth-child(1) .featured-drink-image {          
+      422 +  background: linear-gradient(145deg, #4A6B3F,                
+          +var(--matcha-dark));                                          
+      423 +}                                                             
+      424 +                                                              
+      425 +.featured-drink:nth-child(2) .featured-drink-image {          
+      426 +  background: linear-gradient(145deg, var(--pink), #B47A80);  
+      427 +}                                                             
+      428 +                                                              
+      429 +.featured-drink:nth-child(3) .featured-drink-image {          
+      430 +  background: linear-gradient(145deg, var(--sage),            
+          +var(--matcha));                                               
+      431 +}                                                             
+      432 +                                                              
+      433 +.featured-badge {                                             
+      434 +  position: absolute;                                         
+      435 +  top: 1rem;                                                  
+      436 +  right: 1rem;                                                
+      437 +  background: var(--pink);                                    
+      438 +  color: var(--white);                                        
+      439 +  padding: 0.4rem 1rem;                                       
+      440 +  border-radius: 20px;                                        
+      441 +  font-size: 0.8rem;                                          
+      442 +  font-weight: 600;                                           
+      443 +  text-transform: uppercase;                                  
+      444 +  letter-spacing: 0.5px;                                      
+      445 +}                                                             
+      446 +                                                              
+      447 +.featured-drink-content {                                     
+      448 +  padding: 2rem;                                              
+      449 +}                                                             
+      450 +                                                              
+      451 +.featured-drink-content h3 {                                  
+      452 +  color: var(--matcha-dark);                                  
+      453 +  font-size: 1.4rem;                                          
+      454 +  margin-bottom: 0.75rem;                                     
+      455 +}                                                             
+      456 +                                                              
+      457 +.featured-drink-content p {                                   
+      458 +  color: var(--text-light);                                   
+      459 +  font-size: 1rem;                                            
+      460 +  line-height: 1.6;                                           
+      461 +  margin-bottom: 1.5rem;                                      
+      462 +}                                                             
+      463 +                                                              
+      464 +.featured-drink-footer {                                      
+      465 +  display: flex;                                              
+      466 +  justify-content: space-between;                             
+      467 +  align-items: center;                                        
+      468 +}                                                             
+      469 +                                                              
+      470 +.featured-price {                                             
+      471 +  font-size: 1.5rem;                                          
+      472 +  font-weight: 700;                                           
+      473 +  color: var(--matcha-dark);                                  
+      474 +}                                                             
+      475 +                                                              
+      476 +.featured-drink .btn {                                        
+      477 +  padding: 0.75rem 1.5rem;                                    
+      478 +  font-size: 0.9rem;                                          
+      479 +}                                                             
+      480 +                                                              
+      481 +/* Featured drink animations */                               
+      482 +.featured-drink {                                             
+      483 +  animation: fadeInUp 0.6s ease backwards;                    
+      484 +}                                                             
+      485 +                                                              
+      486 +.featured-drink:nth-child(2) {                                
+      487 +  animation-delay: 0.15s;                                     
+      488 +}                                                             
+      489 +                                                              
+      490 +.featured-drink:nth-child(3) {                                
+      491 +  animation-delay: 0.3s;                                      
+      492 +}                                                             
+      493 +                                                              
+      494  /* ===== Popular Items Section ===== */                       
+      495  .popular {                                                    
+      496    background: linear-gradient(180deg, var(--cream) 0%,        
+           var(--sage-light) 100%);                                      
+
+⏺ Update(index.html)
+  ⎿  Added 55 lines
+       89      </div>                                                    
+       90    </section>                                                  
+       91                                                                
+       92 +  <!-- Featured Drinks Section -->                            
+       93 +  <section class="featured-drinks">                           
+       94 +    <div class="section-header">                              
+       95 +      <h2>Featured Drinks</h2>                                
+       96 +      <p>Our signature creations you won't find anywhere      
+          +else</p>                                                      
+       97 +    </div>                                                    
+       98 +    <div class="featured-grid">                               
+       99 +      <!-- Featured Drink 1 -->                               
+      100 +      <div class="featured-drink">                            
+      101 +        <div class="featured-drink-image">                    
+      102 +          🍃                                                  
+      103 +          <span class="featured-badge">Signature</span>       
+      104 +        </div>                                                
+      105 +        <div class="featured-drink-content">                  
+      106 +          <h3>Ventura Sunset Matcha</h3>                      
+      107 +          <p>A stunning layered drink inspired by our famous  
+          +beach sunsets. Mango puree meets premium matcha with a hint   
+          +of passion fruit, topped with coconut cream.</p>              
+      108 +          <div class="featured-drink-footer">                 
+      109 +            <span class="featured-price">$8.50</span>         
+      110 +            <a href="menu.html" class="btn btn-primary">Try   
+          +It</a>                                                        
+      111 +          </div>                                              
+      112 +        </div>                                                
+      113 +      </div>                                                  
+      114 +      <!-- Featured Drink 2 -->                               
+      115 +      <div class="featured-drink">                            
+      116 +        <div class="featured-drink-image">                    
+      117 +          🌺                                                  
+      118 +          <span class="featured-badge">New</span>             
+      119 +        </div>                                                
+      120 +        <div class="featured-drink-content">                  
+      121 +          <h3>Rose Petal Boba</h3>                            
+      122 +          <p>Delicate rose-infused milk tea with house-made   
+          +rose syrup, topped with edible rose petals and our signature  
+          +honey boba pearls.</p>                                        
+      123 +          <div class="featured-drink-footer">                 
+      124 +            <span class="featured-price">$7.75</span>         
+      125 +            <a href="menu.html" class="btn btn-primary">Try   
+          +It</a>                                                        
+      126 +          </div>                                              
+      127 +        </div>                                                
+      128 +      </div>                                                  
+      129 +      <!-- Featured Drink 3 -->                               
+      130 +      <div class="featured-drink">                            
+      131 +        <div class="featured-drink-image">                    
+      132 +          🥥                                                  
+      133 +          <span class="featured-badge">Popular</span>         
+      134 +        </div>                                                
+      135 +        <div class="featured-drink-content">                  
+      136 +          <h3>Coastal Coconut Matcha</h3>                     
+      137 +          <p>Tropical vibes in every sip! Creamy coconut milk 
+          + blended with ceremonial matcha, topped with toasted coconut  
+          +flakes and a drizzle of condensed milk.</p>                   
+      138 +          <div class="featured-drink-footer">                 
+      139 +            <span class="featured-price">$8.00</span>         
+      140 +            <a href="menu.html" class="btn btn-primary">Try   
+          +It</a>                                                        
+      141 +          </div>                                              
+      142 +        </div>                                                
+      143 +      </div>                                                  
+      144 +    </div>                                                    
+      145 +  </section>                                                  
+      146 +                                                              
+      147    <!-- Popular Items Section -->                              
+      148    <section class="popular">                                   
+      149      <div class="section-header">                              
+
+⏺ Done! I added a "Featured Drinks" section to the home page with 3 signature
+  drinks:
+
+  1. Ventura Sunset Matcha ($8.50) - Signature drink with mango, matcha, passion
+   fruit, and coconut cream
+  2. Rose Petal Boba ($7.75) - New rose-infused milk tea with honey boba
+  3. Coastal Coconut Matcha ($8.00) - Popular tropical coconut matcha
+
+  Each drink card includes:
+  - Colorful gradient image with emoji
+  - Badge label (Signature/New/Popular)
+  - Drink name and description
+  - Price and "Try It" button
+  - Hover animation effect
+
+  The section has a dark green background to make the white drink cards stand
+  out. Refresh the page to see the changes.
+
+✻ Baked for 37s
+
+❯ Make all the buttons have a smooth hover effect with a color change. 
+
+⏺ Read 1 file (ctrl+o to expand)
+
+⏺ Update(styles.css)
+  ⎿  Added 47 lines, removed 11 lines
+      193    padding: 1rem 2rem;                                         
+      194    border-radius: 50px;                                        
+      195    font-weight: 600;                                           
+      196 -  transition: var(--transition);                              
+      196    cursor: pointer;                                            
+      197    border: none;                                               
+      198    font-size: 1rem;                                            
+      199 +  position: relative;                                         
+      200 +  overflow: hidden;                                           
+      201 +  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);      
+      202  }                                                             
+      203                                                                
+      204 +.btn::before {                                                
+      205 +  content: '';                                                
+      206 +  position: absolute;                                         
+      207 +  top: 0;                                                     
+      208 +  left: -100%;                                                
+      209 +  width: 100%;                                                
+      210 +  height: 100%;                                               
+      211 +  background: linear-gradient(90deg, transparent, rgba(255,   
+          +255, 255, 0.2), transparent);                                 
+      212 +  transition: left 0.5s ease;                                 
+      213 +}                                                             
+      214 +                                                              
+      215 +.btn:hover::before {                                          
+      216 +  left: 100%;                                                 
+      217 +}                                                             
+      218 +                                                              
+      219  .btn-primary {                                                
+      220 -  background: var(--matcha);                                  
+      220 +  background: linear-gradient(135deg, var(--matcha) 0%,       
+          +var(--matcha-light) 100%);                                    
+      221    color: var(--white);                                        
+      222 +  box-shadow: 0 4px 15px rgba(61, 90, 50, 0.3);               
+      223  }                                                             
+      224                                                                
+      225  .btn-primary:hover {                                          
+      226 -  background: var(--matcha-dark);                             
+      227 -  transform: translateY(-2px);                                
+      228 -  box-shadow: var(--shadow-hover);                            
+      226 +  background: linear-gradient(135deg, var(--matcha-dark) 0%,  
+          +var(--matcha) 100%);                                          
+      227 +  transform: translateY(-3px) scale(1.02);                    
+      228 +  box-shadow: 0 8px 25px rgba(45, 74, 34, 0.4);               
+      229  }                                                             
+      230                                                                
+      231 +.btn-primary:active {                                         
+      232 +  transform: translateY(-1px) scale(0.98);                    
+      233 +  box-shadow: 0 4px 15px rgba(45, 74, 34, 0.3);               
+      234 +}                                                             
+      235 +                                                              
+      236  .btn-secondary {                                              
+      237    background: transparent;                                    
+      238    color: var(--matcha-dark);                                  
+      239    border: 2px solid var(--matcha);                            
+      240 +  box-shadow: 0 4px 15px rgba(61, 90, 50, 0.1);               
+      241  }                                                             
+      242                                                                
+      243  .btn-secondary:hover {                                        
+      244 -  background: var(--matcha);                                  
+      244 +  background: linear-gradient(135deg, var(--matcha) 0%,       
+          +var(--matcha-light) 100%);                                    
+      245    color: var(--white);                                        
+      246 -  transform: translateY(-2px);                                
+      246 +  border-color: transparent;                                  
+      247 +  transform: translateY(-3px) scale(1.02);                    
+      248 +  box-shadow: 0 8px 25px rgba(45, 74, 34, 0.3);               
+      249  }                                                             
+      250                                                                
+      251 +.btn-secondary:active {                                       
+      252 +  transform: translateY(-1px) scale(0.98);                    
+      253 +}                                                             
+      254 +                                                              
+      255  .btn-pink {                                                   
+      256 -  background: var(--pink);                                    
+      256 +  background: linear-gradient(135deg, var(--pink) 0%,         
+          +var(--pink-light) 100%);                                      
+      257    color: var(--white);                                        
+      258 +  box-shadow: 0 4px 15px rgba(212, 148, 154, 0.3);            
+      259  }                                                             
+      260                                                                
+      261  .btn-pink:hover {                                             
+      262 -  background: #C4848A;                                        
+      263 -  transform: translateY(-2px);                                
+      264 -  box-shadow: var(--shadow-hover);                            
+      262 +  background: linear-gradient(135deg, #B47A80 0%, var(--pink) 
+          + 100%);                                                       
+      263 +  transform: translateY(-3px) scale(1.02);                    
+      264 +  box-shadow: 0 8px 25px rgba(180, 122, 128, 0.4);            
+      265  }                                                             
+      266                                                                
+      267 +.btn-pink:active {                                            
+      268 +  transform: translateY(-1px) scale(0.98);                    
+      269 +  box-shadow: 0 4px 15px rgba(180, 122, 128, 0.3);            
+      270 +}                                                             
+      271 +                                                              
+      272  /* ===== Sections ===== */                                    
+      273  section {                                                     
+      274    padding: 5rem 5%;                                           
+
+⏺ Update(styles.css)
+  ⎿  Added 9 lines, removed 3 lines
+      610  }                                                             
+      611                                                                
+      612  .popular-flip-card .flip-card-back .btn {                     
+      613 -  background: var(--white);                                   
+      613 +  background: linear-gradient(135deg, var(--white) 0%,        
+          +var(--cream) 100%);                                           
+      614    color: var(--matcha-dark);                                  
+      615    padding: 0.75rem 1.5rem;                                    
+      616    font-size: 0.9rem;                                          
+      617 +  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);                  
+      618  }                                                             
+      619                                                                
+      620  .popular-flip-card .flip-card-back .btn:hover {               
+      621 -  background: var(--cream);                                   
+      622 -  transform: scale(1.05);                                     
+      621 +  background: linear-gradient(135deg, var(--cream) 0%,        
+          +var(--white) 100%);                                           
+      622 +  transform: translateY(-2px) scale(1.05);                    
+      623 +  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);                  
+      624  }                                                             
+      625                                                                
+      626 +.popular-flip-card .flip-card-back .btn:active {              
+      627 +  transform: scale(0.98);                                     
+      628 +}                                                             
+      629 +                                                              
+      630  .popular-img {                                                
+      631    height: 200px;                                              
+      632    background: linear-gradient(135deg, var(--matcha-light),    
+           var(--sage));                                                 
+
+⏺ Update(styles.css)
+  ⎿  Added 4 lines
+      514    font-size: 0.9rem;                                          
+      515  }                                                             
+      516                                                                
+      517 +.featured-drink .btn:hover {                                  
+      518 +  transform: translateY(-3px) scale(1.05);                    
+      519 +}                                                             
+      520 +                                                              
+      521  /* Featured drink animations */                               
+      522  .featured-drink {                                             
+      523    animation: fadeInUp 0.6s ease backwards;                    
+
+⏺ Update(styles.css)
+  ⎿  Added 4 lines, removed 2 lines
+      1283    align-items: center;                                       
+      1284    justify-content: center;                                   
+      1285    font-size: 1.2rem;                                         
+      1286 -  transition: var(--transition);                             
+      1286 +  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);     
+      1287  }                                                            
+      1288                                                               
+      1289  .social-links a:hover {                                      
+      1290 -  background: var(--pink);                                   
+      1290 +  background: linear-gradient(135deg, var(--pink) 0%,        
+           +var(--pink-light) 100%);                                     
+      1291 +  transform: translateY(-3px) scale(1.1);                    
+      1292 +  box-shadow: 0 8px 20px rgba(212, 148, 154, 0.4);           
+      1293  }                                                            
+      1294                                                               
+      1295  .footer-bottom {                                             
+
+⏺ Update(styles.css)
+  ⎿  Added 10 lines, removed 3 lines
+      110    font-weight: 500;                                           
+      111    padding: 0.5rem 1rem;                                       
+      112    border-radius: 25px;                                        
+      113 -  transition: var(--transition);                              
+      113 +  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);      
+      114  }                                                             
+      115                                                                
+      116 -.nav-links a:hover,                                           
+      116 +.nav-links a:hover {                                          
+      117 +  background: linear-gradient(135deg, var(--matcha) 0%,       
+          +var(--matcha-light) 100%);                                    
+      118 +  color: var(--white);                                        
+      119 +  transform: translateY(-2px);                                
+      120 +  box-shadow: 0 4px 15px rgba(61, 90, 50, 0.3);               
+      121 +}                                                             
+      122 +                                                              
+      123  .nav-links a.active {                                         
+      124 -  background: var(--matcha);                                  
+      124 +  background: linear-gradient(135deg, var(--matcha-dark) 0%,  
+          +var(--matcha) 100%);                                          
+      125    color: var(--white);                                        
+      126 +  box-shadow: 0 4px 15px rgba(45, 74, 34, 0.3);               
+      127  }                                                             
+      128                                                                
+      129  .menu-toggle {                                                
+
+❯ Add hover effects to the navigation menu links ,  make them change color  
+  when you hover over them                                                  
+
+⏺ Done! I've added smooth hover effects with color changes to all buttons and
+  navigation links:
+
+  All Buttons (.btn):
+  - Smooth cubic-bezier easing (0.4s transition)
+  - Gradient backgrounds that shift on hover
+  - Lift effect (translateY(-3px)) + slight scale (scale(1.02))
+  - Glowing shadow that intensifies on hover
+  - Shimmer effect (light sweep across button)
+  - Active state with press-down feedback
+
+  Navigation Links:
+  - Smooth color transition to gradient green
+  - Lift effect on hover
+  - Soft shadow glow
+  - Active page has darker gradient
+
+  Social Media Icons:
+  - Scale up (scale(1.1)) + lift on hover
+  - Gradient pink background
+  - Glowing shadow effect
+
+  Refresh to see the smooth hover transitions throughout the site.
+
+✻ Crunched for 49s

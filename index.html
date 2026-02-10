@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matcha Boba House | Ventura's Beachside Matcha Cafe</title>
+  <meta name="description" content="Matcha Boba House - Your cozy beachside matcha and boba tea cafe in Ventura, California. Fresh matcha, handcrafted boba, and ocean vibes.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ===== Responsive Images ===== */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">Matcha Boba <span>House</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero.png" alt="Hero image of Matcha Boba House">
+    <div class="hero-content">
+      <h1>Welcome to Matcha Boba <span>House</span></h1>
+      <p class="hero-tagline">Sip, relax, and enjoy the ocean breeze at Ventura's coziest matcha and boba cafe, just steps from the beach.</p>
+      <div class="hero-buttons">
+        <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+        <a href="contact.html" class="btn btn-secondary">Find Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="section-header">
+      <h2>Why Choose Us</h2>
+      <p>We bring you the finest matcha experience with a California coastal twist</p>
+    </div>
+    <div class="features-grid">
+      <!-- Flip Card 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-icon">🍵</div>
+            <h3>Premium Matcha</h3>
+            <p>Sourced directly from Uji, Japan</p>
+          </div>
+          <div class="flip-card-back">
+            <div class="back-icon">✨</div>
+            <p>Our ceremonial-grade matcha is stone-ground fresh and delivers authentic, rich flavor in every sip. We partner directly with farms in Uji for the highest quality.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Flip Card 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-icon">🧋</div>
+            <h3>Fresh Boba Daily</h3>
+            <p>Made in-house every morning</p>
+          </div>
+          <div class="flip-card-back">
+            <div class="back-icon">🫧</div>
+            <p>Our tapioca pearls are cooked fresh every morning for that perfect chewy texture. We never use day-old boba - only the freshest for our customers!</p>
+          </div>
+        </div>
+      </div>
+      <!-- Flip Card 3 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-icon">🌊</div>
+            <h3>Beach Vibes</h3>
+            <p>Steps from the Pacific Ocean</p>
+          </div>
+          <div class="flip-card-back">
+            <div class="back-icon">☀️</div>
+            <p>Located just steps from Ventura's beautiful coastline, enjoy your drink with stunning ocean views and the calming sound of waves.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Drinks Section -->
+  <section class="featured-drinks">
+    <div class="section-header">
+      <h2>Featured Drinks</h2>
+      <p>Our signature creations you won't find anywhere else</p>
+    </div>
+    <div class="featured-grid">
+      <!-- Featured Drink 1 -->
+      <div class="featured-drink">
+        <div class="featured-drink-image">
+          <img src="images/feature.png" alt="Boba drinks on a table">
+          <span class="featured-badge">Signature</span>
+        </div>
+        <div class="featured-drink-content">
+          <h3>Ventura Sunset Matcha</h3>
+          <p>A stunning layered drink inspired by our famous beach sunsets. Mango puree meets premium matcha with a hint of passion fruit, topped with coconut cream.</p>
+          <div class="featured-drink-footer">
+            <span class="featured-price">$8.50</span>
+            <a href="menu.html" class="btn btn-primary">Try It</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Drink 2 -->
+      <div class="featured-drink">
+        <div class="featured-drink-image">
+          <img src="images/extra.png" alt="Customers enjoying boba in cafe">
+          <span class="featured-badge">New</span>
+        </div>
+        <div class="featured-drink-content">
+          <h3>Rose Petal Boba</h3>
+          <p>Delicate rose-infused milk tea with house-made rose syrup, topped with edible rose petals and our signature honey boba pearls.</p>
+          <div class="featured-drink-footer">
+            <span class="featured-price">$7.75</span>
+            <a href="menu.html" class="btn btn-primary">Try It</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Drink 3 -->
+      <div class="featured-drink">
+        <div class="featured-drink-image">
+          <img src="images/coconut.png" alt="Coastal Coconut Matcha latte with toasted coconut">
+          <span class="featured-badge">Popular</span>
+        </div>
+        <div class="featured-drink-content">
+          <h3>Coastal Coconut Matcha</h3>
+          <p>Tropical vibes in every sip! Creamy coconut milk blended with ceremonial matcha, topped with toasted coconut flakes and a drizzle of condensed milk.</p>
+          <div class="featured-drink-footer">
+            <span class="featured-price">$8.00</span>
+            <a href="menu.html" class="btn btn-primary">Try It</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extra Image / Optional Section -->
+  <section class="extra">
+    <img src="images/extra.png" alt="Customers enjoying boba in cafe">
+    <p>Relax, sip, and savor the perfect boba experience.</p>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="features" style="background: linear-gradient(135deg, var(--pink-light), var(--sage-light));">
+    <div class="section-header">
+      <h2>Visit Us Today</h2>
+      <p>Open daily from 8am to 8pm. Come for the matcha, stay for the views!</p>
+      <div style="margin-top: 2rem;">
+        <a href="contact.html" class="btn btn-pink">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Matcha Boba House</h3>
+        <p>Your cozy beachside escape for premium matcha and boba in Ventura, California.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="TikTok">🎵</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h3>Hours</h3>
+        <p>Monday - Friday: 8am - 8pm</p>
+        <p>Saturday - Sunday: 9am - 9pm</p>
+      </div>
+      <div class="footer-section">
+        <h3>Location</h3>
+        <p>123 Ocean Avenue</p>
+        <p>Ventura, CA 93001</p>
+        <p>Near the Ventura Pier</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Matcha Boba House. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+      document.querySelector('.menu-toggle').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

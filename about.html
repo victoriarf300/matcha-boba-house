@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Matcha Boba House</title>
+    <meta
+      name="description"
+      content="Learn about Matcha Boba House, our story, values, and the team behind Ventura's favorite beachside matcha cafe."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <a href="index.html" class="logo">Matcha Boba <span>House</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <h1>Our Story</h1>
+      <p>From a dream to your favorite beachside escape</p>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Where Matcha Meets the Ocean</h2>
+          <p>
+            Matcha Boba House was born from a simple idea: create a space where
+            the calming ritual of matcha meets the laid-back vibes of California
+            beach culture. Founded in 2023, we set up shop just steps from
+            Ventura's beautiful coastline to bring our community a unique cafe
+            experience.
+          </p>
+          <p>
+            Our founder, after spending time in Japan learning the art of matcha
+            preparation, returned to California with a vision. She wanted to
+            share the beauty of ceremonial-grade matcha while adding a modern,
+            playful twist with boba teas that would appeal to everyone.
+          </p>
+          <p>
+            Today, Matcha Boba House has become a gathering place for locals,
+            surfers, remote workers, and visitors alike. Whether you're grabbing
+            a quick pick-me-up before hitting the waves or settling in for an
+            afternoon of work with ocean views, we're here to fuel your day with
+            quality drinks and good vibes.
+          </p>
+        </div>
+        <div class="about-image">🍵</div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+      <div class="section-header">
+        <h2>What We Stand For</h2>
+        <p>The principles that guide everything we do</p>
+      </div>
+      <div class="values-grid">
+        <!-- Value Flip Card 1 -->
+        <div class="value-flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="icon">🌱</div>
+              <h3>Quality First</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                We source our matcha directly from Uji, Japan, and use only
+                premium ingredients. No shortcuts, no compromises. Every drink
+                is crafted with care.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Value Flip Card 2 -->
+        <div class="value-flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="icon">🌊</div>
+              <h3>Sustainability</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                From biodegradable straws to compostable cups, we're committed
+                to protecting the ocean we love. We aim to minimize our
+                environmental footprint every day.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Value Flip Card 3 -->
+        <div class="value-flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="icon">💚</div>
+              <h3>Community</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                We're more than a cafe - we're a gathering place. We support
+                local artists, host community events, and give back to Ventura
+                whenever we can.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Value Flip Card 4 -->
+        <div class="value-flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="icon">✨</div>
+              <h3>Authenticity</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                We honor traditional Japanese matcha preparation while embracing
+                creativity. It's about respecting the roots while making it
+                accessible to everyone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+      <div class="section-header">
+        <h2>Meet the Team</h2>
+        <p>The passionate people behind your favorite drinks</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="team-photo">👩‍🍳</div>
+          <h3>Victoria Flores</h3>
+          <p>Founder & Head of Matcha</p>
+        </div>
+        <div class="team-member">
+          <div class="team-photo">👨‍🍳</div>
+          <h3>Brett Molina Hermosillo</h3>
+          <p>Boba Master & Operations</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section
+      class="features"
+      style="
+        background: linear-gradient(135deg, var(--sage), var(--pink-light));
+      "
+    >
+      <div class="section-header">
+        <h2>Come Say Hello!</h2>
+        <p>
+          We'd love to make your new favorite drink. Stop by and experience the
+          Matcha Boba House difference.
+        </p>
+        <div
+          style="
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+          "
+        >
+          <a href="menu.html" class="btn btn-primary">View Menu</a>
+          <a href="contact.html" class="btn btn-pink">Get Directions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Matcha Boba House</h3>
+          <p>
+            Your cozy beachside escape for premium matcha and boba in Ventura,
+            California.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-section">
+          <h3>Hours</h3>
+          <p>Monday - Friday: 8am - 8pm</p>
+          <p>Saturday - Sunday: 9am - 9pm</p>
+        </div>
+        <div class="footer-section">
+          <h3>Location</h3>
+          <p>123 Ocean Avenue</p>
+          <p>Ventura, CA 93001</p>
+          <p>Near the Ventura Pier</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Matcha Boba House. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav-links").classList.toggle("active");
+        document.querySelector(".menu-toggle").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
