@@ -59,4 +59,3 @@ Perfect! I can see you have a **menu.html** with multiple menu items and a **gal
 
 Would you like me to proceed with implementing these steps? I'll do them one at a time so you can review and test each one before moving to the next.
 
-when i went to ask copilot to ewview the code it generated, it ahowed me a issue with script loading order. It said if script.js was moved into the <head>, it would need the different attribute to avoid accessing DOM elemnts way too early. Since the script is loaded, i didnt have to make any serious charges. The review was needed and helped me get a good understanding as to why script placement is important.
